@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <label for="find">ระบุคำค้นหา</label><input type="text" id="find">
+    <button type="submit">ค้นหา</button>
     <div class="container row" style="margin: auto">
             <?php
                 $url = "https://dd-wtlab2020.netlify.app/pre-final/ezquiz.json";
