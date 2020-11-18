@@ -21,7 +21,7 @@
 
                 foreach ($result->tracks->items as $items){
                     echo '<div class="card" style="width: 25%; margin: 2%;">';
-                    echo '<img class="card-img-top" src="' . $items->album->images[0]->url . '" alt="Card image cap">';
+                    echo '<img class="card-img-top" src="' . $items->album->images[0]->url . '">';
                     echo "<div class='card-body'><h5 class='card-head'>" . $items->album->name . "</h5>";
                     foreach ($items->album->artists as $artists){
                         echo "Artist: " . $artists->name . "<br><p></p>";
